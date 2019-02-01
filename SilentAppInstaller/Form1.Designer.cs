@@ -1,6 +1,6 @@
 ﻿namespace SilentAppInstaller
 {
-    partial class Form1
+    partial class MainWindow
     {
         /// <summary>
         /// Required designer variable.
@@ -51,15 +51,15 @@
             this.buttonCheckForUpdate.UseVisualStyleBackColor = true;
             this.buttonCheckForUpdate.Click += new System.EventHandler(this.ButtonCheckForUpdate_Click);
             // 
-            // Form1
+            // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(624, 407);
             this.Controls.Add(this.buttonCheckForUpdate);
             this.Controls.Add(this.labelVersion);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "MainWindow";
+            this.Text = "SilentAppInstaller";
             this.ResumeLayout(false);
             this.PerformLayout();
 
