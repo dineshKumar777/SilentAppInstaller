@@ -8,7 +8,7 @@ namespace SilentAppInstaller
 {
     public partial class MainWindow : Form
     {
-        private const string UpdateLink = "https://rbsoft.org/updates/AutoUpdaterTest.xml";
+        private const string UpdateLink = "https://raw.githack.com/dineshKumar777/SilentAppInstaller/master/SilentAppInstaller/VersionInfo.xml";
 
         public MainWindow()
         {
